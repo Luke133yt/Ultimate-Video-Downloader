@@ -59,6 +59,30 @@ Windows:
 Linux:
   python3 main.py
 
+Youtube Videos:
+Just paste the link and select the resolution (best quality) is better and then select "Download VIdeo!"
+wait until you see Downloaded in green
+
+Youtube Audio:
+Just paste the link and then press on then select "Download Audio"
+wait until you see Downloaded in green
+
+Facebook:
+Just paste the link and then select "Download Best Quality Video from FB"
+wait until you see Downloaded in green
+
+Instragam PFP:
+Just paste the name of the profile and then press "Download Anything from IG!"
+
+Instragam Post and Reels:
+At the moment it doesn't work, but if i fix that, you have to past the link of the post/reels and then press the same button, "Download Anything from IG"
+
+TikTok:
+At the moment it doesn't work, but if i fix that, you have to past the link of the video and then press "Download TikTok VIdeo!"
+
+Spotify:
+Just paste the link of the album or the single song and then press "Download from Spotify"
+
 
 KNOWN ISSUES
 
