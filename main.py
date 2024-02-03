@@ -33,6 +33,8 @@ operating_system = 'Windows'
 
 def download_YT(option):
 
+    status_label = ctk.CTkLabel(content_frame, text="")
+
     progress_label.pack(pady=("10p" "5p"))
     progress_bar.pack(pady=("10p" "5p"))
     status_label.pack(pady=("10p" "5p"))
@@ -86,6 +88,8 @@ def download_YT(option):
             status_label.configure(text=f"Error: {str(e)}", text_color="white", fg_color="red")
 
 def download_FB():
+
+    status_label = ctk.CTkLabel(content_frame, text="")
     
     progress_label.pack(pady=("10p" "5p"))
     progress_bar.pack(pady=("10p" "5p"))
@@ -107,6 +111,13 @@ def download_FB():
         status_label.configure(text=f"Error: {str(e)}", text_color="white", fg_color="red")
 
 def download_IG():
+
+    status_label = ctk.CTkLabel(content_frame, text="")
+
+    progress_label.pack(pady=("10p" "5p"))
+    progress_bar.pack(pady=("10p" "5p"))
+    status_label.pack(pady=("10p" "5p"))
+
     url = entry_url.get()
 
     loader = instaloader.Instaloader()
@@ -139,6 +150,13 @@ def download_IG():
 
 def download_TT():
 
+    
+    status_label = ctk.CTkLabel(content_frame, text="")
+
+    progress_label.pack(pady=("10p" "5p"))
+    progress_bar.pack(pady=("10p" "5p"))
+    status_label.pack(pady=("10p" "5p"))
+
     url = entry_url.get()
     api = TikTokApi()
 
@@ -162,6 +180,12 @@ def download_TT():
         status_label.configure(text=f"Error: {str(e)}", text_color="white", fg_color="red")
 
 def download_SP():
+    
+    status_label = ctk.CTkLabel(content_frame, text="")
+
+    progress_label.pack(pady=("10p" "5p"))
+    progress_bar.pack(pady=("10p" "5p"))
+    status_label.pack(pady=("10p" "5p"))
 
     url = entry_url.get()
 
