@@ -1,4 +1,4 @@
-# Ultimate Media Downloader (yt-dlp)
+# Ultimate Media Downloader
 ![UVD Logo](https://github.com/Luke133yt/Ultimate-Video-Downloader/assets/50149935/9ee65079-ae8a-4319-b26f-40ecf52fe6e9)
 
 A Python application with a **CustomTkinter** GUI that allows you to download videos and audio from YouTube, Spotify, TikTok, Facebook, Instagram, and many more platforms using **yt-dlp**.
