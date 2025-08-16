@@ -53,7 +53,7 @@ def download_media(mode):
             ydl_opts["postprocessors"] = [{
                 "key": "FFmpegExtractAudio",
                 "preferredcodec": "mp3",
-                "preferredquality": "192",
+                "preferredquality": "320",
             }]
             status_label.configure(text="[AUDIO] Downloading...", text_color="black", fg_color="yellow")
 
@@ -149,3 +149,4 @@ KNOWN ISUES:
 - Spotify DRM error
 - Tiktok needs log-in
 '''
+
